@@ -1,0 +1,23 @@
+.font-family-two{
+    font-family: 'Arimo', sans-serif;
+}
+
+.outline:focus{
+    outline: 0;
+}
+
+.btn, .btn-wpp{
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #473d6b;
+}
+
+.btn-wpp:hover{
+    background-color: #003f00;
+}
+
+.margin{
+    margin: 10px 0;
+}

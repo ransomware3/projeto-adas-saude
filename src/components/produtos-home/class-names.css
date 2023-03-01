@@ -1,0 +1,14 @@
+.list-link{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ccc;
+    transition: .2s;
+}
+
+.list-link:hover{
+    transform: scale(1.1);
+}

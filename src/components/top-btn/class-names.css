@@ -1,0 +1,7 @@
+.btn-hover{
+    transition: .2s;
+}
+
+.btn-hover:hover{
+    background-color: #3b315d;
+}
