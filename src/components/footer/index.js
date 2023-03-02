@@ -21,6 +21,10 @@ const Div = styled.div`
 
 const P = styled.p`
     font-size: 13px;
+
+    @media(max-width: 1170px){
+        font-size: 10px;
+    }
 `
 
 export { Footer }

@@ -16,7 +16,7 @@ export const BannerText = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(106, 91, 158, 0.6);
+    background-color: rgba(28, 92, 127, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,5 +56,5 @@ export const P = styled.p`
 `
 
 export const Strong = styled.strong`
-    color: #3b315d;
+    color: #1c5c7f;
 `

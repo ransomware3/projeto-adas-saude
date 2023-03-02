@@ -11,6 +11,6 @@ export const AnchorBtn = styled.a`
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #6a5b9e;
+    background-color: #37a0cd;
     color: #fff;
 `

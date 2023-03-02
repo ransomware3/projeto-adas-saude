@@ -17,7 +17,7 @@ export const DivText = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(106, 91, 158, 0.6);
+    background-color: rgba(28, 92, 127, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ export const H2 = styled.h2`
     width: 100%;
     font-size: 27px;
     font-weight: 800;
-    color: #452268;
+    color: #1c5c7f;
     margin-bottom: 15px;
 `
 
@@ -95,5 +95,5 @@ export const QualityImg = styled.img`
 `
 
 export const Strong = styled.strong`
-    color: #3b315d;
+    color: #1c5c7f;
 `

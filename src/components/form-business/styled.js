@@ -11,7 +11,7 @@ export const SectionLimiter = styled.div`
     padding: 50px 0;
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 1px solid #b193ff;
+    border-bottom: 1px solid #4cbee2;
 `
 
 export const Form = styled.form`
@@ -33,7 +33,7 @@ export const LimiterH1 = styled.div`
 
 export const FormH1 = styled.h1`
     font-size: 22px;
-    color: #3b315d;
+    color: #1c5c7f;
     margin-bottom: 6px;
 `
 
@@ -69,34 +69,34 @@ export const BtnContainer = styled.div`
 
 export const Label = styled.label`
     font-size: 18px;
-    color: #322a4f;
+    color: #1c5c7f;
     margin-bottom: 5px;
 `
 
 export const Input = styled.input`
     width: 100%;
     height: 45px;
-    border: 1px solid #b993ff;
+    border: 1px solid #b9d8ff;
     border-radius: 4px;
-    background-color: #e6cfff;
+    background-color: #edf4ff;
     padding: 0 20px;
 `
 
 export const Select = styled.select`
     width: 100%;
     height: 40px;
-    border: 1px solid #b993ff;
+    border: 1px solid #b9d8ff;
     border-radius: 4px;
-    background-color: #e6cfff;
+    background-color: #edf4ff;
 `
 
 export const TextArea = styled.textarea`
     width: 100%;
     height: 100px;
     resize: none;
-    border: 1px solid #b993ff;
+    border: 1px solid #b9d8ff;
     border-radius: 4px;
-    background-color: #e6cfff;
+    background-color: #edf4ff;
     padding: 20px;
     margin-bottom: 30px;
 `
@@ -106,7 +106,7 @@ export const BtnSubmit = styled.button`
     height: 45px;
     border: none;
     border-radius: 5px;
-    background-color: #6a5b9e;
+    background-color: #37a0cd;
     color: #fff;
     font-size: 17px;
     cursor: pointer;
@@ -127,7 +127,7 @@ export const BtnWhats = styled.a`
 `
 
 export const Div = styled.div`
-    width: 45%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;

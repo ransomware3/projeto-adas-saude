@@ -17,7 +17,7 @@ const Counter1 = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCount1(prevCount => Math.min(prevCount + 1, 10))
-        }, 300)
+        }, 290)
 
         return () => clearInterval(intervalId)
     }, [])

@@ -30,7 +30,7 @@ export const H2 = styled.h2`
     font-weight: 800;
     font-size: 27px;
     margin-bottom: 60px;
-    color: #3b315d;
+    color: #1c5c7f;
 `
 
 export const Li = styled.li`
