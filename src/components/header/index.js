@@ -45,6 +45,8 @@ import {
 export const Header = () => {
     return(
         <>
+            <MobileSecretBar id='top'></MobileSecretBar>
+
             <ContactBar>
                 <ContactDiv>
                     <ContactUl>
@@ -60,8 +62,6 @@ export const Header = () => {
                     </SocialUl>
                 </ContactDiv>
             </ContactBar>
-
-            <MobileSecretBar id='top'></MobileSecretBar>
 
             <NavBar>
                 <HeaderContainer>

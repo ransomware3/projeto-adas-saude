@@ -16,7 +16,7 @@ export const HeadingTwo = styled.h2`
     font-weight: 800;
     font-size: 35px;
     margin-bottom: 60px;
-    color: #1c5c7f;
+    color: #37a0cd;
 
     @media(max-width: 1170px){
         font-size: 28px;

@@ -7,7 +7,7 @@ export const DivImage = styled.div`
     position: relative;
     background-image: url(${MedTeam});
     background-size: cover;
-    background-position: 0 -10px;
+    background-position: center;
     background-repeat: no-repeat;
 `
 
@@ -17,7 +17,7 @@ export const DivText = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(28, 92, 127, 0.6);
+    background-color: rgba(55, 160, 205, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;

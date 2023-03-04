@@ -29,7 +29,8 @@ export const ContactBar = styled.div`
 `
 
 export const ContactDiv = styled.div`
-    width: 75%;
+    width: 70%;
+    max-width: 1360px;
     height 100%;
     display: flex;
     justify-content: space-between;
@@ -148,7 +149,8 @@ export const NavBar = styled.header`
 `
 
 export const HeaderContainer = styled.div`
-    width: 75%;
+    width: 70%;
+    max-width: 1360px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -157,7 +159,7 @@ export const HeaderContainer = styled.div`
 `
 
 export const LogoLink = styled(Link)`
-    width: 11%;
+    width: 120px;
 
     @media(max-width: 1000px){
         width: 90px;
