@@ -26,7 +26,15 @@ export const Ul = styled.ul`
 `
 
 export const Img = styled.img`
-    width: 80px;
+    width: 70px;
+
+    @media(max-width: 1000px){
+        width: 50px;
+    }
+
+    @media(max-width: 485px){
+        width: 40px;
+    }
 `
 
 export const H2 = styled.h2`
