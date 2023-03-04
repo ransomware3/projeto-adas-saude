@@ -18,8 +18,11 @@ export const DivRow = styled.div`
 
 export const Ul = styled.ul`
     width: 100%;
+    max-width: 1400px;
     display: flex;
     justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 30px;
 `
 
 export const Img = styled.img`
@@ -31,6 +34,15 @@ export const H2 = styled.h2`
     font-size: 27px;
     margin-bottom: 60px;
     color: #1c5c7f;
+    text-align: center;
+
+    @media(max-width: 1000px){
+        font-size: 25px;
+    }
+
+    @media(max-width: 485px){
+        font-size: 23px;
+    }
 `
 
 export const Li = styled.li`

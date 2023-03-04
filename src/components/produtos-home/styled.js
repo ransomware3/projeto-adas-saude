@@ -29,6 +29,7 @@ export const HeadingTwo = styled.h2`
 
 export const ProductsList = styled.ul`
     width: 100%;
+    max-width: 1400px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -22,17 +22,38 @@ export const BannerText = styled.div`
     align-items: center;
     flex-direction: column;
     color: #fff;
+    text-align: center;
 `
 
 export const BannerH1 = styled.h1`
     font-weight: 800;
     font-size: 40px;
+
+    @media(max-width: 1000px){
+        font-size: 35px;
+    }
+
+    @media(max-width: 485px){
+        font-size: 30px;
+    }
+
+    @media(max-width: 400px){
+        font-size: 25px;
+    }
 `
 
 export const BannerH3 = styled.h3`
     font-weight: 400;
     font-size: 20px;
     margin-top: 20px;
+
+    @media(max-width: 1000px){
+        font-size: 18px;
+    }
+
+    @media(max-width: 485px){
+        font-size: 14px;
+    }
 `
 
 export const AlignLimiter = styled.section`
@@ -44,15 +65,28 @@ export const AlignLimiter = styled.section`
 
 export const SectionLimiter = styled.div`
     width: 75%;
+    max-width: 1400px;
     padding-top: 60px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+
+    @media(max-width: 1000px){
+        text-align: center;
+    }
 `
 
 export const P = styled.p`
     font-size: 20px;
     margin-bottom: 30px;
+
+    @media(max-width: 1000px){
+        font-size: 18px;
+    }
+
+    @media(max-width: 485px){
+        font-size: 16px;
+    }
 `
 
 export const Strong = styled.strong`

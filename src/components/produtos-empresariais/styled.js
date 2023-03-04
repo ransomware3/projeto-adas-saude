@@ -14,17 +14,43 @@ export const HeadingTwo = styled.h2`
     font-size: 27px;
     margin-bottom: 60px;
     color: #37a0cd;
+
+    @media(max-width: 1000px){
+        font-size: 25px;
+    }
+
+    @media(max-width: 485px){
+        font-size: 23px;
+    }
 `
 
 export const ProductsList = styled.ul`
     width: 100%;
+    max-width: 1400px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
+    @media(max-width: 1200px){
+        gap: 20px;
+    }
+
+    @media(max-width: 700px){
+        gap: 40px;
+    }
 `
 
 export const Li = styled.li`
     width: 100px;
+
+
+    @media(max-width: 1200px){
+        width: 80px;
+    }
+
+    @media(max-width: 1100px){
+        width: 70px;
+    }
 `
 
 export const Img = styled.img`

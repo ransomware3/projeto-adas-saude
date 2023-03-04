@@ -43,12 +43,20 @@ export const ContactUl = styled.ul`
     align-items: center;
     justify-content: space-between;
 
-    @media(max-width: 1460px){
+    @media(max-width: 1500px){
         width: 60%;
+    }
+
+    @media(max-width: 1460px){
+        width: 65%;
     }
 
     @media(max-width: 1170px){
         width: 70%;
+    }
+
+    @media(max-width: 1050px){
+        width: 75%;
     }
 `
 

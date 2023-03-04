@@ -17,7 +17,7 @@ const Counter1 = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCount1(prevCount => Math.min(prevCount + 1, 10))
-        }, 290)
+        }, 210)
 
         return () => clearInterval(intervalId)
     }, [])
@@ -40,7 +40,7 @@ const Counter2 = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCount2(prevCount => Math.min(prevCount + 21, 4500))
-        }, 0.5)
+        }, 10)
 
         return () => clearInterval(intervalId)
     }, [])

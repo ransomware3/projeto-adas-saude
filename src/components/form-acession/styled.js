@@ -8,6 +8,7 @@ export const AlignLimiter = styled.section`
 
 export const SectionLimiter = styled.div`
     width: 75%;
+    max-width: 1400px;
     padding: 50px 0;
     display: flex;
     justify-content: space-evenly;
@@ -131,6 +132,10 @@ export const Div = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media(max-width: 1000px){
+        display: none;
+    }
 `
 
 export const DivPerson = styled.div`
