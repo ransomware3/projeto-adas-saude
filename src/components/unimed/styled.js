@@ -24,7 +24,7 @@ export const LogoImg = styled.img`
 export const DivLine = styled.div`
     width: 100%;
     height: 100px;
-    border-bottom: 3px solid #fea000;
+    border-bottom: 3px solid #00995f;
     margin-bottom: 120px;
     position: relative;
 `
@@ -49,7 +49,7 @@ export const HeadingTwo = styled.h2`
     font-weight: 800;
     font-size: 35px;
     margin-bottom: 30px;
-    color: #ebab36;
+    color: #00995f;
 
     @media(max-width: 1000px){
         font-size: 30px;
@@ -63,7 +63,7 @@ export const HeadingTwo = styled.h2`
 export const P = styled.p`
     font-size: 20px;
     margin-bottom: 30px;
-    
+
     @media(max-width: 1000px){
         font-size: 16px;
     }

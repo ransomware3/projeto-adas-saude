@@ -14,6 +14,10 @@ export const SectionLimiter = styled.div`
 
 export const LogoImg = styled.img`
     width: 80%;
+
+    @media(max-width: 1000px){
+        width: 130px;
+    }
 `
 
 export const DivLine = styled.div`
@@ -31,6 +35,10 @@ export const DivLogo = styled.div`
     left: 0;
     transform: translateY(55%);
     background-color: #fff;
+
+    @media(max-width: 1000px){
+        width: 150px;
+    }
 `
 
 export const HeadingTwo = styled.h2`
@@ -38,9 +46,21 @@ export const HeadingTwo = styled.h2`
     font-size: 35px;
     margin-bottom: 30px;
     color: #004a93;
+
+    @media(max-width: 1000px){
+        font-size: 30px;
+    }
+
+    @media(max-width: 485px){
+        font-size: 25px;
+    }
 `
 
 export const P = styled.p`
     font-size: 20px;
     margin-bottom: 30px;
+
+    @media(max-width: 1000px){
+        font-size: 16px;
+    }
 `
