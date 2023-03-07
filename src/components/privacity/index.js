@@ -7,7 +7,8 @@ import {
     Ol,
     Ul,
     HeadingThree,
-    Li
+    Li,
+    Anchor
 } from './styled'
 
 export const Politicas = () => {
@@ -16,11 +17,11 @@ export const Politicas = () => {
             <AlignLimiter>
                 <SectionLimiter>
                     <HeadingTwo>Política de Privacidade</HeadingTwo>
-                    <P>A sua privacidade é importante para nós. É política da Adas Saúde respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href="https://adas-saude-seguros.vercel.app">Adas Saúde Seguros</a>, e outros sites que possuímos e operamos.</P>
+                    <P>A sua privacidade é importante para nós. É política da Adas Saúde respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <Anchor href="https://adas-saude-seguros.vercel.app">Adas Saúde Seguros</Anchor>, e outros sites que possuímos e operamos.</P>
                     <P>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</P>
                     <P>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</P>
                     <P>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</P>
-                    <P>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas <a href="https://privacidade.me/" rel="noopener noreferrer" target='_blank'>políticas de privacidade</a>.</P>
+                    <P>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas <Anchor href="https://privacidade.me/" rel="noopener noreferrer" target='_blank'>políticas de privacidade</Anchor>.</P>
                     <P>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</P>
                     <P>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco.</P>
                     <HeadingThree>Compromisso do Usuário</HeadingThree>
@@ -43,7 +44,7 @@ export const Termos = () => {
             <AlignLimiter>
                 <SectionLimiter>
                     <HeadingTwo>Termos de Uso</HeadingTwo>
-                    <P>Ao acessar ao site <a href='https://adas-saude-seguros.vercel.app/'>Adas Saúde Seguros</a>, concorda em cumprir estes <a href="https://privacidade.me/" target='_blank' rel="noopener noreferrer">termos de uso</a>, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</P>
+                    <P>Ao acessar ao site <Anchor href='https://adas-saude-seguros.vercel.app/'>Adas Saúde Seguros</Anchor>, concorda em cumprir estes <Anchor href="https://privacidade.me/" target='_blank' rel="noopener noreferrer">termos de uso</Anchor>, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</P>
                     <HeadingTwo>1. Uso de Licença</HeadingTwo>
                     <P>É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site Adas Saúde Seguros , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode: </P>
                     <Ol>

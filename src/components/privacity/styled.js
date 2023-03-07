@@ -75,10 +75,28 @@ export const Ol = styled.ol`
     list-style-position: inside;
     font-size: 18px;
     margin: 0 0 30px 30px;
+
+    @media(max-width: 1000px){
+        margin: 0 0 30px 0;
+    }
 `
 
 export const Ul = styled.ul`
     list-style-position: inside;
     font-size: 18px;
     margin-left: 30px;
+
+    @media(max-width: 1000px){
+        margin: 30px 0;
+    }
+`
+
+export const Anchor = styled.a`
+    color: #37a0cd;
+    transition: .2s;
+    font-weight: 800;
+
+    &:hover{
+        color: #1c5c7f;
+    }
 `
