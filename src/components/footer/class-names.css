@@ -1,0 +1,7 @@
+.link{
+    transition: .2s;
+}
+
+.link:hover{
+    color: #37a0cd;
+}

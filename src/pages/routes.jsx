@@ -14,6 +14,7 @@ import { SulAmerica } from "./pages-operadoras/sulamerica"
 import { PortoSeguro } from "./pages-operadoras/portoseguro"
 import { Allianz } from "./pages-operadoras/allianz"
 import { ScrollToTop } from "./scrollToTop"
+import { Privacidade } from "./politicas-e-termos"
 
 const AppRoutes = () => {
     return(
@@ -34,6 +35,7 @@ const AppRoutes = () => {
                 <Route exact path="/operadora-sulamerica" element={<SulAmerica/>}/>
                 <Route exact path="/operadora-portoseguro" element={<PortoSeguro/>}/>
                 <Route exact path="/operadora-allianz" element={<Allianz/>}/>
+                <Route exact path="/privacidade-e-termos" element={<Privacidade/>}/>
             </Routes>
         </BrowserRouter>
     )
