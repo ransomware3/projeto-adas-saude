@@ -4,6 +4,7 @@ import { Produtos } from '../components/produtos-home'
 import { Footer } from '../components/footer'
 import { BtnTop } from '../components/top-btn'
 import { AllCounters } from '../components/animated-counter'
+import { AlignLimiter } from '../components/about/styled'
 
 const Home = () => {
     return(
@@ -11,7 +12,9 @@ const Home = () => {
             <Header/>
             <Banner/>
             <Produtos/>
-            <AllCounters/>
+            <AlignLimiter>
+                <AllCounters/>
+            </AlignLimiter>
             <BtnTop/>
             <Footer/>
         </>
