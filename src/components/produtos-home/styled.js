@@ -14,8 +14,8 @@ export const Section = styled.section`
 
 export const HeadingTwo = styled.h2`
     font-weight: 800;
-    font-size: 35px;
-    margin-bottom: 60px;
+    font-size: 30px;
+    margin-bottom: 80px;
     color: #37a0cd;
 
     @media(max-width: 1170px){
