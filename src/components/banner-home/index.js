@@ -1,14 +1,17 @@
-import BannerDefault from '../../images/banner-default.png'
-import BannerResponsive from '../../images/banner-responsive.jpg'
+import BannerDefault from '../../images/video-banner.mp4'
+// import BannerResponsive from '../../images/banner-responsive.jpg'
 import styled from 'styled-components'
 
 const Banner = () => {
-    return(
+    return (
         <>
-            <picture>
-                <BannerImg srcSet={BannerDefault} media="(min-width: 600px)"/>
+            <div>
+                <Video src={BannerDefault} type="video/mp4" autoPlay muted/>
+            </div>
+
+            {/* <picture>
                 <BannerResponse src={BannerResponsive} alt="Imagem" />
-            </picture>
+            </picture> */}
 
             {/* <ContainerImg></ContainerImg> */}
         </>
@@ -27,14 +30,15 @@ const Banner = () => {
 //     // border: 1px solid blue;
 // `
 
-const BannerImg = styled.source`
+const Video = styled.video`
     width: 100%;
+    height: 500px;
 `
 
-const BannerResponse = styled.img`
-    width: 100%;
-    max-height: 500px;
+// const BannerResponse = styled.img`
+//     width: 100%;
+//     max-height: 500px;
 
-`
+// `
 
 export { Banner }
