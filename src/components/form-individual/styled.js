@@ -144,7 +144,7 @@ export const DivPerson = styled.div`
     height: 80%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -300px 0;
+    background-position: center;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 19px 0px rgba(55,160,205,1);
     -moz-box-shadow: 0px 0px 19px 0px rgba(55,160,205,1);
