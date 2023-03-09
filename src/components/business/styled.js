@@ -1,11 +1,11 @@
 import styled from "styled-components"
-import Team from '../../images/empresarial.jpg'
+import Predios from '../../images/predios.jpg'
 
 export const BannerImg = styled.section`
     width: 100%;
     height: 520px;
     position: relative;
-    background-image: url(${Team});
+    background-image: url(${Predios});
     background-size: cover;
     background-position: center;
 `
@@ -16,7 +16,7 @@ export const BannerText = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(55, 160, 205, 0.6);
+    background-color: rgba(55, 160, 205, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;

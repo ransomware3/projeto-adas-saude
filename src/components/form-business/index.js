@@ -21,7 +21,8 @@ import {
     Div,
     DivPerson,
     Span,
-    PWpp
+    PWpp,
+    Star
 } from './styled'
 
 const BusinessForm = () => {
@@ -45,22 +46,22 @@ const BusinessForm = () => {
                         </LimiterH1>
                         <ContainerInfoList>
                             <ContainerInfoItem>
-                                <Label className="font-family-two" htmlFor='name'>Nome *</Label>
+                                <Label className="font-family-two" htmlFor='name'>Nome <Star>*</Star></Label>
                                 <Input required className='outline' id='name' type='text'></Input>
                                 <Span className="font-family-two">Seu nome completo</Span>
                             </ContainerInfoItem>
                             <ContainerInfoItem>
-                                <Label className="font-family-two" htmlFor='tel'>Telefone *</Label>
+                                <Label className="font-family-two" htmlFor='tel'>Telefone <Star>*</Star></Label>
                                 <Input required className='outline' id='tel' type='tel' name='tel' pattern="^\d+$" value={tel}
                                 onInput={handleChange}></Input>
                                 <Span className="font-family-two">Telefone para contato (insira o DDD)</Span>
                             </ContainerInfoItem>
                         </ContainerInfoList>
                         <GeralContainer>
-                            <Label className="font-family-two" htmlFor='mail'>Email *</Label>
+                            <Label className="font-family-two" htmlFor='mail'>Email <Star>*</Star></Label>
                             <Input required className='outline' id='mail' type='email'></Input>
                             <Span className="font-family-two">Exemplo: user@website.com</Span>
-                            <Label className="font-family-two">Qual a operadora de seu plano de saúde? *</Label>
+                            <Label className="font-family-two">Qual a operadora de seu plano de saúde? <Star>*</Star></Label>
                             <Select required>
                                 <option selected value=""></option>
                                 <option value="Não tenho plano">Não tenho plano</option>
@@ -76,7 +77,7 @@ const BusinessForm = () => {
                                 <option value="Outra">Outra</option>
                             </Select>
                             <Span className="font-family-two">Selecione seu plano de saúde</Span>
-                            <Label className="font-family-two" htmlFor='txtarea'>Mensagem *</Label>
+                            <Label className="font-family-two" htmlFor='txtarea'>Mensagem <Star>*</Star></Label>
                             <TextArea className='outline' id='txtarea'/>
                         </GeralContainer>
                         <BtnContainer>

@@ -17,7 +17,7 @@ export const DivText = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(55, 160, 205, 0.6);
+    background-color: rgba(55, 160, 205, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
