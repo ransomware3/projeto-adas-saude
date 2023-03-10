@@ -116,7 +116,7 @@ const Nav = () => {
 
                         <LiMobile className='li-mobile'><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link nav-link-mobile' to='/sobre'>Sobre Nós</NavLink></LiMobile>
 
-                        <LiMobile className='li-mobile'><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link nav-link-mobile' to='/blog'>Novidades</NavLink></LiMobile>
+                        <LiMobile className='li-mobile'><a className='nav-link nav-link-mobile' target='_blank' rel="noopener noreferrer" href='https://adassaude.blogspot.com/'>Novidades</a></LiMobile>
 
                         <LiMobile className='li-mobile li-label'><LabelCheck className='hover-contact label-check label-mob nav-link-moblie'>Planos de Saúde</LabelCheck></LiMobile>
                         <li>
