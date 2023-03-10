@@ -51,7 +51,7 @@ export const Header = () => {
                 <ContactDiv>
                     <ContactUl>
                         <ContactLi><Location/>São Paulo/SP</ContactLi>
-                        <li><Anchor href='tel:704-555-0127'><Phone/>(704) 555-0127</Anchor></li>
+                        <li><Anchor href='tel:11-98816-5363'><Phone/>(11) 98816-5363</Anchor></li>
                         <li><Anchor href='mailto:contato@adasseguros.com.br'><Mail/>Email: contato@adasseguros.com.br</Anchor></li>
                     </ContactUl>
 
@@ -96,9 +96,9 @@ const Nav = () => {
 
                     <NavLi><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to='/sobre'>Sobre Nós</NavLink></NavLi>
 
-                    <NavLi><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to='/blog'>Blog</NavLink></NavLi>
+                    <NavLi><Anchor target='_blank' rel="noopener noreferrer" href='https://adassaude.blogspot.com/'>Novidades</Anchor></NavLi>
                 </NavUl>
-                <WppBtn target='_blank' href="https://wa.me/551130042222?text=Olá,%20tudo%20bem?%20Vim%20do%20seu%20site:%20Adas%20Saúde%20Seguros,%20e%20gostaria%20de%20fazer%20uma%20cotação%20gratuita!" rel="noopener noreferrer"><BsWhatsapp/>&nbsp;Fale com um consultor</WppBtn>
+                <WppBtn target='_blank' href="https://wa.me/5511988165363?text=Olá,%20tudo%20bem?%20Vim%20do%20seu%20site:%20Adas%20Saúde%20Seguros,%20e%20gostaria%20de%20fazer%20uma%20cotação%20gratuita!" rel="noopener noreferrer"><BsWhatsapp/>&nbsp;Fale com um consultor</WppBtn>
             </NavList>
 
             <NavMobList>

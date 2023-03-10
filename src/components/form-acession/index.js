@@ -80,9 +80,9 @@ const AcessionForm = () => {
                         </GeralContainer>
                         <BtnContainer>
                             <BtnSubmit className="font-family-two btn" type='submit'>Enviar</BtnSubmit>
-                                <PWpp className="margin">ou</PWpp>
+                                <PWpp className="margin">ou melhor</PWpp>
                                 <PWpp>Faça uma cotação gratuitamente via WhatsApp</PWpp>
-                            <BtnWhats target='_blank' href="https://wa.me/551130042222?text=Olá,%20tudo%20bem?%20Vim%20da%20aba:%20plano%20de%20saúde%20por%20adesão,%20e%20gostaria%20de%20fazer%20uma%20cotação!" rel="noopener noreferrer" className="font-family-two btn-wpp"><BsWhatsapp/>&nbsp;Entre em contato com um consultor!</BtnWhats>
+                            <BtnWhats target='_blank' href="https://wa.me/5511988165363?text=Olá,%20tudo%20bem?%20Vim%20da%20aba:%20plano%20de%20saúde%20por%20adesão,%20e%20gostaria%20de%20fazer%20uma%20cotação!" rel="noopener noreferrer" className="font-family-two btn-wpp"><BsWhatsapp/>&nbsp;Entre em contato com um consultor!</BtnWhats>
                         </BtnContainer>
                     </Form>
                     <Div>
