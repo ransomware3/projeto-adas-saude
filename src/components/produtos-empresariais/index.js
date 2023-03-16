@@ -21,7 +21,7 @@ const ProdutosEmpresariais = () => {
     return(
         <>
             <Section>
-                <HeadingTwo>Planos de Saúde</HeadingTwo>
+                <HeadingTwo>Parceiras para plano empresarial</HeadingTwo>
                 <ProductsList>
                     <Li><Link to='/operadora-amil'><Img src={Amil}></Img></Link></Li>
                     <Li><Link to='/operadora-amil'><Img src={AmilOne}></Img></Link></Li>

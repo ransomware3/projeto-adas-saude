@@ -5,10 +5,15 @@ import { Footer } from "../../components/footer"
 import { IndividualForm } from "../../components/form-individual"
 import { ProdutosIndividuais } from "../../components/produtos-individuais"
 import { BtnTop } from "../../components/top-btn"
+import { Helmet } from "react-helmet"
 
 const Individual = () => {
     return(
         <>
+            <Helmet>
+                <title>Plano de Saúde Individual</title>
+                <meta name="description" content="Tendo um CNPJ você poderá aproveitar o melhor dos planos de saúde empresariais!"></meta>
+            </Helmet>
             <Header/>
             <BannerIndividual/>
             <TextIndividual/>

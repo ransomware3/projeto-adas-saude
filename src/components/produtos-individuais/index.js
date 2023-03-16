@@ -21,7 +21,7 @@ const ProdutosIndividuais = () => {
     return(
         <>
             <Section>
-                <HeadingTwo>Planos de Saúde</HeadingTwo>
+                <HeadingTwo>Parceiras para plano individual</HeadingTwo>
                 <ProductsList>
                     <Li><Link to='#'><Img src={BioSaude}></Img></Link></Li>
                     <Li><Link to='#'><Img src={BioVida}></Img></Link></Li>

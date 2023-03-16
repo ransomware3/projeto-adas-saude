@@ -7,7 +7,8 @@ import {
     DivContainer,
     MiniContainer,
     Img,
-    P
+    P,
+    AlignLimiter
 } from './styled'
 
 const Counter1 = () => {
@@ -91,7 +92,9 @@ function ShowCounter() {
 const AllCounters = () => {
     return (
         <>
-            <ShowCounter />
+            <AlignLimiter>
+                <ShowCounter/>
+            </AlignLimiter>
         </>
     )
 }

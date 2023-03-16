@@ -7,7 +7,7 @@ const Banner = () => {
         <>
             <Div>
                 <Video src={BannerDefault} type="video/mp4" autoPlay muted/>
-                <BannerResponse src={BannerResponsive} alt="Imagem"/>
+                <BannerResponse src={BannerResponsive} alt="Banner Adas Saúde Seguros"/>
             </Div>
         </>
     )

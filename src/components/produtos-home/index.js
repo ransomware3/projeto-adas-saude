@@ -32,7 +32,7 @@ const Produtos = () => {
     return(
         <>
             <Section>
-                <HeadingTwo>Planos de Saúde</HeadingTwo>
+                <HeadingTwo>Parceiras Adas Saúde</HeadingTwo>
                 <ProductsList>
                     <Li><Img src={NotreDame}></Img></Li>
                     <Li><Img src={Bradesco}></Img></Li>

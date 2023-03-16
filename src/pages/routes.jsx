@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Home } from "./home"
 import { Sobre } from "./sobre"
-import { Contato } from "./contato"
 import { Empresarial } from "./pages-tipos-de-planos/empresarial"
 import { Adesao } from "./pages-tipos-de-planos/adesao"
 import { Individual } from "./pages-tipos-de-planos/individual"
@@ -22,7 +21,6 @@ const AppRoutes = () => {
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/sobre" element={<Sobre/>}/>
-                <Route exact path="/contato" element={<Contato/>}/>
                 <Route exact path="/plano-empresarial" element={<Empresarial/>}/>
                 <Route exact path="/plano-adesao" element={<Adesao/>}/>
                 <Route exact path="/plano-individual" element={<Individual/>}/>

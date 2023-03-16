@@ -39,3 +39,8 @@ export const P = styled.p`
         font-size: 30px;
     }
 `
+
+export const AlignLimiter = styled.section`
+    display: flex;
+    justify-content: center;
+`

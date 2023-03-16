@@ -166,7 +166,7 @@ export const HeaderContainer = styled.div`
     position: relative;
 `
 
-export const LogoLink = styled(Link)`
+export const LogoLink = styled.a`
     width: 120px;
 
     @media(max-width: 1000px){
@@ -274,7 +274,7 @@ export const OptionsList = styled.ul`
     width: 300px;
     position: absolute;
     top: 78%;
-    right: 35%;
+    right: 36.5%;
     opacity: 0;
     overflow-y: auto;
     border-radius: 10px;
@@ -427,7 +427,9 @@ export const Phone = styled(ImPhone)`
 `
 
 export const Instagram = styled(BsInstagram)`
-    color: #06a3da;
+    color: #fff;
+    padding: 1px;
+    background: linear-gradient(90deg, rgba(150,47,191,1) 0%, rgba(214,41,118,1) 50%, rgba(250,126,30,1) 100%);
     transition: .2s ease-in-out;
 `
 

@@ -58,14 +58,14 @@ export const Header = () => {
                     <SocialUl>
                         <SocialLi className='hover-social'><a target='_blank' rel="noopener noreferrer" href="https://www.facebook.com/people/Adas-Sa%C3%BAde-Seguros/100087908922191/"><Facebook className='icons'/></a></SocialLi>
 
-                        <SocialLi className='hover-social'><a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/adassaudeseguros/'><Instagram className='icons'/></a></SocialLi>
+                        <SocialLi><a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/adassaudeseguros/'><Instagram/></a></SocialLi>
                     </SocialUl>
                 </ContactDiv>
             </ContactBar>
 
             <NavBar>
                 <HeaderContainer>
-                    <LogoLink to='/'><LogoImg src={Logo}></LogoImg></LogoLink>
+                    <LogoLink href='/'><LogoImg src={Logo}></LogoImg></LogoLink>
                     <Nav/>
                 </HeaderContainer>
             </NavBar>

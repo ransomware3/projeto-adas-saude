@@ -11,16 +11,16 @@ export const Section = styled.section`
 
 export const HeadingTwo = styled.h2`
     font-weight: 800;
-    font-size: 27px;
+    font-size: 25px;
     margin-bottom: 60px;
     color: #37a0cd;
 
     @media(max-width: 1000px){
-        font-size: 25px;
+        font-size: 23px;
     }
 
     @media(max-width: 485px){
-        font-size: 23px;
+        font-size: 20px;
     }
 `
 

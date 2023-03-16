@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Section = styled.section`
     width: 100%;
-    padding: 80px 90px;
+    padding: 50px 90px 80px;
     display: flex;
     align-items: center;
     flex-flow: column wrap;
@@ -14,16 +14,17 @@ export const Section = styled.section`
 
 export const HeadingTwo = styled.h2`
     font-weight: 800;
-    font-size: 30px;
-    margin-bottom: 80px;
+    font-size: 25px;
+    margin-bottom: 60px;
     color: #37a0cd;
+    text-align: center;
 
     @media(max-width: 1170px){
-        font-size: 28px;
+        font-size: 23px;
     }
 
     @media(max-width: 1000px){
-        font-size: 25px;
+        font-size: 20px;
     }
 `
 

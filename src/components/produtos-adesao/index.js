@@ -19,7 +19,7 @@ const ProdutosAdesao = () => {
     return(
         <>
             <Section>
-                <HeadingTwo>Planos de Saúde</HeadingTwo>
+                <HeadingTwo>Parceiras para plano por adesão</HeadingTwo>
                 <ProductsList>
                     <Li><Link to='#'><Img src={SaoCristovao}></Img></Link></Li>
                     <Li><Link to='/operadora-amil'><Img src={Amil}></Img></Link></Li>

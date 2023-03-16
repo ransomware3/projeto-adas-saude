@@ -6,7 +6,7 @@ const Footer = () => {
     return(
         <>
             <Div>
-                <P>ADAS SAÚDE SEGUROS © 2022 TODOS OS DIREITOS RESERVADOS</P>
+                <P>ADAS SAÚDE SEGUROS © 2012 TODOS OS DIREITOS RESERVADOS</P>
                 <FooterLink className='link' to='/privacidade-e-termos'>Política de Privacidade e Termos de Uso</FooterLink>
             </Div>
         </>
