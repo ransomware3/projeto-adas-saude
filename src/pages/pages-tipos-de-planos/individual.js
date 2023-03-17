@@ -12,7 +12,7 @@ const Individual = () => {
         <>
             <Helmet>
                 <title>Plano de Saúde Individual</title>
-                <meta name="description" content="Tendo um CNPJ você poderá aproveitar o melhor dos planos de saúde empresariais!"/>
+                <meta name="description" content="Caso não possua um CNPJ, uma profissão ou uma formação acadêmica que seja elegível a um plano por adesão, temos opções incríveis em ótimas operadoras para beneficiários com este perfil, seja em um plano para somente você ou para toda a sua família."/>
                 <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
             </Helmet>
             <Header/>

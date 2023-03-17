@@ -11,10 +11,10 @@ const Home = () => {
     return(
         <>
             <Helmet>
-                <meta name="description" content="Precisa de desconto na renovação do seu seguro saúde? Venha para a Adas Saúde e faça uma cotação gratuita!"/>
+                <meta name="description" content="Com a Adas Saúde sua renovação de plano de saúde é rápida e fácil, venha e faça uma cotação gratuita e personalizada!"/>
                 <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
                 <link rel="sitemap" type="application/xml" href="http://adassaude.com.br/sitemap.xml"/>
-	            <title>Adas Saúde Seguros</title>
+	            <title>Adas Saúde Seguros | Cotação Gratuita para Planos de Saúde</title>
             </Helmet>
             <Header/>
             <Banner/>

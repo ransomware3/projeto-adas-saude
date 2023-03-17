@@ -8,7 +8,7 @@ const Amil = () => {
     return(
         <>
             <Helmet>
-                <meta name="description" content="Sobre a opradora de planos de saúde Amil!"/>
+                <meta name="description" content="Amil, cuidar de você. Esse é o plano."/>
                 <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Operadora Amil</title>
             </Helmet>

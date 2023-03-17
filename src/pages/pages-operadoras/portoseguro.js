@@ -8,7 +8,7 @@ const PortoSeguro = () => {
     return(
         <>
             <Helmet>
-                <meta name="description" content="Sobre a opradora de planos de saúde Porto Seguro!"/>
+                <meta name="description" content="O Porto Seguro Saúde garante o atendimento 24 horas, assistência em viagens, atendimento nacional de urgência e emergência para os colaboradores de sua empresa."/>
                 <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Operadora Porto Seguro</title>
             </Helmet>

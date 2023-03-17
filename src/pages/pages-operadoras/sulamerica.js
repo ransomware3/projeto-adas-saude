@@ -8,7 +8,7 @@ const SulAmerica = () => {
     return(
         <>
             <Helmet>
-                <meta name="description" content="Sobre a opradora de planos de saúde SulAmérica!"/>
+                <meta name="description" content="A SulAmérica Seguros e Previdência oferece plano de saúde, seguro de vida, previdência privada, seguro de automóvel, residencial, entre outras opções para você, sua família e empresa"/>
                 <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Operadora SulAmérica</title>
             </Helmet>
