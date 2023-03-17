@@ -9,6 +9,7 @@ const Bradesco = () => {
         <>
             <Helmet>
                 <meta name="description" content="Sobre a opradora de planos de saúde Bradesco Saúde!"/>
+                <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Operadora Bradesco Saúde</title>
             </Helmet>
             <Header/>

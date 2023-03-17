@@ -13,7 +13,8 @@ const Adesao = () => {
         <>
             <Helmet>
                 <title>Plano de Saúde por Adesão</title>
-                <meta name="description" content="Tendo um CNPJ você poderá aproveitar o melhor dos planos de saúde empresariais!"></meta>
+                <meta name="description" content="Tendo um CNPJ você poderá aproveitar o melhor dos planos de saúde empresariais!"/>
+                <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
             </Helmet>
             <Header/>
             <BannerAcession/>

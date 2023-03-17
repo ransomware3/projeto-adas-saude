@@ -10,6 +10,7 @@ const Sobre = () => {
         <>
             <Helmet>
                 <meta name="description" content="Historia, missão e valores da Adas Saúde Seguros!"/>
+                <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Sobre a Adas Saúde</title>
             </Helmet>
             <Header/>

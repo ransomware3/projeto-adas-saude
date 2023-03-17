@@ -10,6 +10,7 @@ const Privacidade = () => {
         <>
             <Helmet>
                 <meta name="description" content="As políticas de privacidade e termos de uso da Adas Saúde."/>
+                <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Políticas e Termos Adas Saúde</title>
             </Helmet>
             <Header/>

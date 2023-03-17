@@ -12,6 +12,7 @@ const Home = () => {
         <>
             <Helmet>
                 <meta name="description" content="Precisa de desconto na renovação do seu seguro saúde? Venha para a Adas Saúde e faça uma cotação gratuita!"/>
+                <meta name="google-site-verification" content="LDrTgpQ7Y66GtdmjOak0Ee0pTcNblUDfxbe95dP5SnA" />
 	            <title>Adas Saúde Seguros</title>
             </Helmet>
             <Header/>
