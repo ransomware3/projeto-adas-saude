@@ -3,8 +3,10 @@ import { Link } from "react-router-dom"
 import { ImPhone } from 'react-icons/im'
 import { HiMail } from 'react-icons/hi'
 import { FaFacebookF } from 'react-icons/fa'
+import { BsFacebook } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
 import { IoLocationSharp } from 'react-icons/io5'
+import { BsWhatsapp } from 'react-icons/bs'
 
 export const MobileSecretBar = styled.div`
     width: 100%;
@@ -23,7 +25,7 @@ export const ContactBar = styled.div`
         height: 40px;
     }
 
-    @media(max-width: 1000px){
+    @media(max-width: 1070px){
         display: none;
     }
 `
@@ -128,12 +130,10 @@ export const SocialMobAnchor = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7ccad6;
     border-radius: 10px;
     transition: .2s;
 
     &:hover{
-        background-color: #37a0cd;
         cursor: pointer;
     }
 `
@@ -164,12 +164,16 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     position: relative;
+
+    @media(max-width: 485px){
+        width: 90%;
+    }
 `
 
 export const LogoLink = styled.a`
     width: 120px;
 
-    @media(max-width: 1000px){
+    @media(max-width: 1070px){
         width: 90px;
     }
 `
@@ -179,23 +183,23 @@ export const LogoImg = styled.img`
 `
 
 export const NavList = styled.nav`
-    width: 60%;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
     gap: 40px;
+    justify-content: flex-end;
 
-    @media(max-width: 1530px){
-        width: 65%;
-    }
-
-    @media(max-width: 1170px){
-        width: 75%;
-    }
-
-    @media(max-width: 1000px){
+    @media(max-width: 1070px){
         display: none;
     }
+`
+
+export const NavUl = styled.ul`
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
 `
 
 export const NavMobList = styled.div`
@@ -205,8 +209,10 @@ export const NavMobList = styled.div`
     align-items: center;
     display: none;
 
-    @media(max-width: 1000px){
+    @media(max-width: 1070px){
         display: flex;
+        justify-content: space-between;
+        width: 60%;
     }
 `
 
@@ -253,13 +259,6 @@ export const LiMobile = styled.li`
     }
 `
 
-export const NavUl = styled.ul`
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-`
-
 export const NavLi = styled.li`
     display: flex;
     align-items: center;
@@ -274,38 +273,13 @@ export const OptionsList = styled.ul`
     width: 300px;
     position: absolute;
     top: 78%;
-    right: 36.5%;
+    right: -65px;
     opacity: 0;
     overflow-y: auto;
     border-radius: 10px;
 
-    @media(max-width: 1530px){
-        right: 38%;
-    }
-
-    @media(max-width: 1460px){
-        right: 37%;
-    }
-
     @media(max-width: 1370px){
-        width: 250px;
-        right: 39%;
-    }
-
-    @media(max-width: 1370px){
-        right: 38%;
-    }
-
-    @media(max-width: 1200px){
-        right: 38%;
-    }
-
-    @media(max-width: 1170px){
-        right: 45%;
-    }
-
-    @media(max-width: 1100px){
-        right: 43%;
+        right: -80px;
     }
 `
 
@@ -367,17 +341,25 @@ export const LinkMobList = styled(Link)`
 `
 
 export const LabelCheck = styled.p`
-    position: relative;
     display: flex;
     align-items: center;
 `
 
+export const BtnContainer = styled.div`
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
 export const WppBtn = styled.a`
-    width: 400px;
+    width: 100%;
     height: 50px;
-    border: 1px solid #06a3da;
-    color: #06a3da;
-    border-radius: 7px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #06a3da;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,21 +375,21 @@ export const WppBtn = styled.a`
 `
 
 export const WppMobBtn = styled.a`
-    width: 100%;
-    height: 50px;
-    border: 1px solid #06a3da;
-    color: #06a3da;
-    border-radius: 7px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #06a3da;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
     cursor: pointer;
-    margin-bottom: 40px;
+    font-size: 11px;
 `
 
-export const Facebook = styled(FaFacebookF)`
-    color: #06a3da;
+export const Facebook = styled(BsFacebook)`
+    color: #1873eb;
     transition: .2s ease-in-out;
 `
 
@@ -431,6 +413,7 @@ export const Instagram = styled(BsInstagram)`
     padding: 1px;
     background: linear-gradient(90deg, rgba(150,47,191,1) 0%, rgba(214,41,118,1) 50%, rgba(250,126,30,1) 100%);
     transition: .2s ease-in-out;
+    border-radius: 5px;
 `
 
 export const InstagramMob = styled(BsInstagram)`
@@ -440,4 +423,12 @@ export const InstagramMob = styled(BsInstagram)`
 
 export const Location = styled(IoLocationSharp)`
     color: #06a3da;
+`
+
+export const Whatsapp = styled(BsWhatsapp)`
+//
+`
+
+export const WhatsappMob = styled(BsWhatsapp)`
+    font-size: 16px;
 `
