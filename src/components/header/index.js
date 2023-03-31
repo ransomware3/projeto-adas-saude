@@ -54,13 +54,13 @@ export const Header = () => {
                     <ContactUl>
                         <ContactLi><Location />São Paulo/SP</ContactLi>
                         <li><Anchor href='tel:11-98816-5363'><Phone />(11) 98816-5363</Anchor></li>
-                        <li><Anchor href='mailto:contato@adasseguros.com.br'><Mail />Email: contato@adasseguros.com.br</Anchor></li>
+                        <li><Anchor href='mailto:contato@adassaude.com.br'><Mail />Email: contato@adassaude.com.br</Anchor></li>
                     </ContactUl>
 
                     <SocialUl>
-                        <SocialLi className='hover-social'><a target='_blank' rel="noopener noreferrer" href="https://www.facebook.com/people/Adas-Sa%C3%BAde-Seguros/100087908922191/"><Facebook className='icons' /></a></SocialLi>
+                        <SocialLi className='hover-social'><a target='_blank' rel="noopener noreferrer" href='https://web.facebook.com/profile.php?id=100091544045645&_rdc=1&_rdr'><Facebook className='icons' /></a></SocialLi>
 
-                        <SocialLi><a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/adassaudeseguros/'><Instagram /></a></SocialLi>
+                        <SocialLi><a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/adassaude/'><Instagram /></a></SocialLi>
                     </SocialUl>
                 </ContactDiv>
             </ContactBar>
