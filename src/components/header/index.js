@@ -53,7 +53,7 @@ export const Header = () => {
                 <ContactDiv>
                     <ContactUl>
                         <ContactLi><Location />São Paulo/SP</ContactLi>
-                        <li><Anchor href='tel:11-98816-5363'><Phone />(11) 98816-5363</Anchor></li>
+                        <li><Anchor href='tel:11-99186-3329'><Phone />(11) 99186-3329</Anchor></li>
                         <li><Anchor href='mailto:contato@adassaude.com.br'><Mail />Email: contato@adassaude.com.br</Anchor></li>
                     </ContactUl>
 
