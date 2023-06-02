@@ -1,5 +1,18 @@
 import styled from "styled-components"
 
+export const AlignLimiter = styled.section`
+    display: flex;
+    justify-content: center;
+`
+
+export const SectionLimiter = styled.div`
+    width: 80%;
+    max-width: 1400px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+`
+
 export const Section = styled.section`
     width: 100%;
     height: 200px;

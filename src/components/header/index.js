@@ -101,7 +101,7 @@ const Nav = () => {
                     <NavLi><Anchor target='_blank' rel="noopener noreferrer" href='https://adassaude.blogspot.com/'>Novidades</Anchor></NavLi>
                 </NavUl>
                 <BtnContainer>
-                    <WppBtn target='_blank' href="https://wa.me/5511988165363?text=Olá,%20tudo%20bem?%20Vim%20do%20seu%20site:%20Adas%20Saúde%20Seguros,%20e%20gostaria%20de%20fazer%20uma%20cotação%20gratuita!" rel="noopener noreferrer"><Whatsapp />&nbsp;Fale com um consultor</WppBtn>
+                    <WppBtn target='_blank' href="https://wa.me/5511991863329?text=Olá,%20tudo%20bem?%20Vim%20do%20seu%20site:%20Adas%20Saúde%20Seguros,%20e%20gostaria%20de%20fazer%20uma%20cotação%20gratuita!" rel="noopener noreferrer"><Whatsapp />&nbsp;Fale com um consultor</WppBtn>
                 </BtnContainer>
             </NavList>
 
@@ -109,7 +109,7 @@ const Nav = () => {
                 <InputCkBox type="checkbox" id="menu-hamburguer"></InputCkBox>
 
                 <div>
-                    <WppMobBtn target='_blank' href="https://wa.me/5511988165363?text=Olá,%20tudo%20bem?%20Vim%20do%20seu%20site:%20Adas%20Saúde%20Seguros,%20e%20gostaria%20de%20fazer%20uma%20cotação%20gratuita!" rel="noopener noreferrer"><WhatsappMob />&nbsp;Fale com um consultor</WppMobBtn>
+                    <WppMobBtn target='_blank' href="https://wa.me/5511991863329?text=Olá,%20tudo%20bem?%20Vim%20do%20seu%20site:%20Adas%20Saúde%20Seguros,%20e%20gostaria%20de%20fazer%20uma%20cotação%20gratuita!" rel="noopener noreferrer"><WhatsappMob />&nbsp;Fale com um consultor</WppMobBtn>
                 </div>
 
                 <label htmlFor="menu-hamburguer">
